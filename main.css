@@ -70,7 +70,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  width: min-content;
+  width: 100%;
   grid-area: nav;
   }
 
