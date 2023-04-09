@@ -4,8 +4,8 @@ body {
 }
 
 .container{
-  padding-right:3em;
-  padding-left: 3em;
+  padding-right:5em;
+  padding-left: 5em;
   width:80%;
   /* width:100%; */
   /* height:100vh; */
@@ -23,7 +23,6 @@ body {
 .logo {
   margin-left: 10%;
   margin-right: 10%;
-  display:block;
   margin: 0 auto;
   display: flex;
   grid-area: logo;
@@ -40,7 +39,7 @@ body {
 
 footer {
   grid-area: footer;
-
+  background-color: rgb(255, 127, 217);
 }
 
 h1 {
