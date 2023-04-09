@@ -2,27 +2,23 @@ body {
   background-color: rgb(255, 255, 255);
   width:100%;
 }
-
 .container{
-  padding-right:5em;
-  padding-left: 5em;
-  width:80%;
-  /* width:100%; */
-  /* height:100vh; */
+  width:100%;
+  background-color: lavenderblush;
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-        "nav"
-        "logo"
-        "name"
-        "content"
-        "footer"; 
+          "nav"
+          "logo"
+          "name"
+          "content"
+          "footer";
 }
 
 .logo {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
   margin: 0 auto;
   display: flex;
   grid-area: logo;
@@ -35,6 +31,8 @@ body {
 
 .content {
   grid-area: content;
+  margin-left:6%;
+  margin-right:10%;
 }
 
 footer {
@@ -70,7 +68,6 @@ nav{
   align-items: center;
   margin: 0 auto;
   width: 100%;
-  
   grid-area: nav;
   }
 
@@ -158,26 +155,11 @@ nav{
     padding-right: .5ch;
 }
 
-.container{
-    width:100%;
-    background-color: lavenderblush;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-            "nav"
-            "logo"
-             "name"
-            "content"
-            "footer";
-  }
-
 
 @media only screen and (min-width: 1200px){
 .image-gallery {
   width:100%;
   /* height: 100%; */
-  background-color: aquamarine;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
