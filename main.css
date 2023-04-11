@@ -32,10 +32,11 @@ body {
   grid-area: content;
   margin-left:6%;
   margin-right:10%;
+  background-color: yellow;
 }
 
 footer {
-  grid-area: footer;
+grid-area: footer;
 padding-top:5%
 }
 
