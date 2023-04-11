@@ -37,7 +37,7 @@ body {
   grid-area: content;
   margin-left:6%;
   margin-right:10%;
-  background-color: rgba(13, 255, 0, 0.515);
+  background-color: rgba(0, 42, 255, 0.515);
 }
 
 footer {
@@ -88,7 +88,7 @@ nav{
   }
   
   nav li a {
-    color:rgb(148, 71, 3);
+    color:rgb(3, 148, 92);
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 200;
     opacity: 0.6;
