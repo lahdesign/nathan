@@ -20,12 +20,20 @@ body {
           "footer";
 }
 
-.logo {
-  margin-left: 30%;
-  margin-right: 30%;
+.logo img{
+  /* margin-left: 30%; */
+  /* margin-right: 30%; */
+  width:60vw;
   margin: 0 auto;
-  display: flex;
+  /* display: flex; */
   grid-area: logo;
+}
+.logo{
+  /* margin-left: 30%; */
+  /* margin-right: 30%; */
+  margin: 0 auto;
+  grid-area: logo;
+  /* display: flex; */;
 }
 
 .name {
@@ -37,7 +45,7 @@ body {
   grid-area: content;
   margin-left:6%;
   margin-right:10%;
-  background-color: rgba(0, 42, 255, 0.515);
+  background-color: rgba(251, 255, 0, 0.515);
 }
 
 footer {
@@ -83,7 +91,7 @@ nav{
   nav li{
     padding: 1em 0;
     list-style-type: none;
-    /* padding: 100px; */
+    padding: 10px;
     font-size: 1.7em;
   }
   
